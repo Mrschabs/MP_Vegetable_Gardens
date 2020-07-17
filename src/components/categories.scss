@@ -22,8 +22,8 @@
   }
 
   // Change all category colours here for the button and circle styling
-  $categories: all faithbased youthdevelopment coffeeshops communitykitchens takeaways babbieshops schools educarecentres sportsfields businesses npos healthclinics safetystructures other;
-  $cat_colors: black #1289A7 #D980FA #30336b #d35400 #8e44ad #2980b9 #7f8c8d #e1b12c #54f542 #fa0b02 #063b02 #82496f #eb4b0c #222f3e;
+  $categories: all faithbased youthdevelopment coffeeshops communitykitchens takeaways;
+  $cat_colors: black #1289A7 #D980FA #30336b #d35400 #8e44ad;
 
   @each $cat in $categories {
     $i: index($categories, $cat);
